@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ENG">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5">
+    <title>SpringBoot</title>
+    <link rel="stylesheet" href="main.css" />
+
+</head>
+<body>
+<noscript>
+    <h2>Your browser does not support js</h2>
+</noscript>
+<div id="borderDemo" class="upload-container">
+    <div class="upload-header">
+        <h1>Spring Boot JS DIP</h1>
+    </div>
+    <div class="upload-content">
+        <div class="single-upload">
+            <h2>Upload your file</h2>
+            <form id="singleUploadForm" name="singleUploadForm" method ="POST" enctype="multipart/form-data">
+                <input id="singleFileUploadInput" type="file" name="file" class="file-input" required />
+                <button type="submit" class="primary submit-btn">submit</button>
+            </form>
+            <div class="upload-response">
+                <div id="singleFileUploadError"></div>
+                <div id="singleFileUploadSuccess"></div>
+            </div>
+        </div>
+        <script src="js/main.js" ></script>
+    </div>
+</div>
+</body>
+</html>

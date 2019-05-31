@@ -1,0 +1,21 @@
+#borderDemo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    background: #FFFFFF;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    letter-spacing: 0px;
+    word-spacing: -0.6px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-shadow: none;
+}
